@@ -1,0 +1,23 @@
+{
+  "target_key": "sn",
+  "feature_set": "extended",
+  "features": [
+    "A",
+    "Z",
+    "N",
+    "Shell_Closure",
+    "N_Z_excess",
+    "N_to_Z_ratio"
+  ],
+  "n_trials": 1000,
+  "cv_folds": 10,
+  "seed": 42,
+  "device": "cpu",
+  "deterministic": true,
+  "holdout_split_path": null,
+  "holdout_test_size": 0.2,
+  "holdout_is_internal_random_split": true,
+  "n_total_clean": 2752,
+  "n_dev": 2201,
+  "n_holdout": 551
+}

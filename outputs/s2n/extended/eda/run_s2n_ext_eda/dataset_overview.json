@@ -1,0 +1,16 @@
+{
+  "data_path": "finaldata.csv",
+  "target_key": "s2n",
+  "target_col": "S(2n)",
+  "rows_before": 3558,
+  "rows_after_clean": 3321,
+  "rows_dropped_missing_target": 237,
+  "target_raw_asterisk_count": 237,
+  "target_raw_hash_count": 1020,
+  "target_raw_emptyish_count": 0,
+  "duplicate_rows_by_A_Z_N": 0,
+  "unique_A": 293,
+  "unique_Z": 118,
+  "unique_N": 176,
+  "unique_elt": 118
+}

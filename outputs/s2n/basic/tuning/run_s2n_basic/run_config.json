@@ -1,0 +1,20 @@
+{
+  "target_key": "s2n",
+  "feature_set": "basic",
+  "features": [
+    "A",
+    "Z",
+    "N"
+  ],
+  "n_trials": 1000,
+  "cv_folds": 10,
+  "seed": 42,
+  "device": "cpu",
+  "deterministic": true,
+  "holdout_split_path": null,
+  "holdout_test_size": 0.2,
+  "holdout_is_internal_random_split": true,
+  "n_total_clean": 2656,
+  "n_dev": 2124,
+  "n_holdout": 532
+}

@@ -1,0 +1,49 @@
+{
+  "dropped_columns": [
+    "\u00ef\u00bb\u00bf1"
+  ],
+  "numeric_columns": [
+    "A",
+    "Z",
+    "S(2n)",
+    "S(2n)_err",
+    "S(2p)",
+    "S(2p)_err",
+    "Q(a)",
+    "Q(a)_err",
+    "Q(2B-)",
+    "Q(2B-)_err",
+    "Q(ep)",
+    "Q(ep)_err",
+    "Q(B- n)",
+    "Q(B- n)_err",
+    "N",
+    "N_to_Z_ratio",
+    "Vp",
+    "Vn",
+    "Shell_Closure",
+    "Parity",
+    "S(n)",
+    "N_Z_excess"
+  ],
+  "string_columns": [
+    "elt"
+  ],
+  "target_raw_asterisk_count": 237,
+  "target_raw_hash_count": 1020,
+  "target_raw_emptyish_count": 0,
+  "rows_after_numeric_clean": 3558,
+  "target_missing_after_clean_count": 237,
+  "target_missing_with_asterisk_count": 237,
+  "target_missing_with_hash_count": 0,
+  "rows_dropped_missing_target": 237,
+  "target_mev_min": -3.12,
+  "target_mev_max": 42.863,
+  "target_mev_mean": 15.37614467759711,
+  "target_mev_std": 6.781392319760298,
+  "duplicate_rows_by_A_Z_N": 0,
+  "unique_nuclei_by_A_Z_N": 3321,
+  "target_col": "S(2n)",
+  "rows_before": 3558,
+  "rows_after_clean": 3321
+}

@@ -1,0 +1,8 @@
+{
+  "best_value": 0.7085879892110825,
+  "n_trials": 1000,
+  "target_key": "s2n",
+  "feature_set": "basic",
+  "device": "cpu",
+  "storage": "sqlite:///outputs/optuna.db"
+}

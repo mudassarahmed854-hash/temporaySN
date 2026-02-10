@@ -1,0 +1,8 @@
+{
+  "holdout_split_path": "outputs/splits/sn_basic_holdout.json",
+  "n_total": 3440,
+  "n_train": 2752,
+  "n_test": 688,
+  "seed": 42,
+  "test_size": 0.2
+}

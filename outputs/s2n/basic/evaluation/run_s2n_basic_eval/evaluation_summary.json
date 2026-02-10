@@ -1,0 +1,37 @@
+{
+  "target_key": "s2n",
+  "feature_set": "basic",
+  "tuned_params_path": "outputs/s2n/basic/tuning/run_s2n_basic/best_params.csv",
+  "features": [
+    "A",
+    "Z",
+    "N"
+  ],
+  "cv_folds": 10,
+  "device": "cpu",
+  "deterministic": true,
+  "run_loco": true,
+  "loco_group_col": "Z",
+  "loco_max_groups": null,
+  "loco_min_group_size": 5,
+  "loco_include_base": true,
+  "holdout_split_path": "outputs/splits/s2n_basic_holdout.json",
+  "holdout_test_size": 0.2,
+  "n_total_clean": 3321,
+  "n_train": 2656,
+  "n_test": 665,
+  "cv_summary": {
+    "base_rmse_mean": 1.0094947411911923,
+    "base_rmse_std": 0.16470887439529683,
+    "base_mae_mean": 0.609809273481369,
+    "base_mae_std": 0.040829786808285966,
+    "base_r2_mean": 0.9764294326305389,
+    "base_r2_std": 0.01003418714434589,
+    "tuned_rmse_mean": 0.6026195309058051,
+    "tuned_rmse_std": 0.13007285196161433,
+    "tuned_mae_mean": 0.2853992760181427,
+    "tuned_mae_std": 0.0285933423884786,
+    "tuned_r2_mean": 0.9914290130138397,
+    "tuned_r2_std": 0.004293594813909032
+  }
+}

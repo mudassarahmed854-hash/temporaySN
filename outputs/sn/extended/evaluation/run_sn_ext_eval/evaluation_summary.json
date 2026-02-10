@@ -1,0 +1,40 @@
+{
+  "target_key": "sn",
+  "feature_set": "extended",
+  "tuned_params_path": "outputs/sn/extended/tuning/run_sn_ext/best_params.csv",
+  "features": [
+    "A",
+    "Z",
+    "N",
+    "Shell_Closure",
+    "N_Z_excess",
+    "N_to_Z_ratio"
+  ],
+  "cv_folds": 10,
+  "device": "cpu",
+  "deterministic": true,
+  "run_loco": true,
+  "loco_group_col": "Z",
+  "loco_max_groups": null,
+  "loco_min_group_size": 5,
+  "loco_include_base": true,
+  "holdout_split_path": "outputs/splits/sn_extended_holdout.json",
+  "holdout_test_size": 0.2,
+  "n_total_clean": 3440,
+  "n_train": 2752,
+  "n_test": 688,
+  "cv_summary": {
+    "base_rmse_mean": 1.15581186389117,
+    "base_rmse_std": 0.23195884632489874,
+    "base_mae_mean": 0.9303684413433075,
+    "base_mae_std": 0.06536062476664584,
+    "base_r2_mean": 0.9024649381637573,
+    "base_r2_std": 0.026891012050307223,
+    "tuned_rmse_mean": 0.567215743483664,
+    "tuned_rmse_std": 0.328570219158343,
+    "tuned_mae_mean": 0.2655756875872612,
+    "tuned_mae_std": 0.059920822785522,
+    "tuned_r2_mean": 0.9731068015098572,
+    "tuned_r2_std": 0.028966222029458626
+  }
+}

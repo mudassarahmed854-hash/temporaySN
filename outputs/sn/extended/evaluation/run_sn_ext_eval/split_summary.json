@@ -1,0 +1,13 @@
+{
+  "split_type": "precomputed",
+  "holdout_split_path": "outputs/splits/sn_extended_holdout.json",
+  "seed": 42,
+  "test_size": 0.2,
+  "n_total_clean": 3440,
+  "n_train": 2752,
+  "n_test": 688,
+  "y_train_mean": 7.690120220184326,
+  "y_train_std": 3.7302396297454834,
+  "y_test_mean": 7.7999396324157715,
+  "y_test_std": 3.80004620552063
+}

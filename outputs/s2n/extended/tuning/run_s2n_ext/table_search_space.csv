@@ -1,0 +1,10 @@
+param,type,min,max,scale
+n_estimators,int,400.0,3000.0,linear
+max_depth,int,3.0,12.0,linear
+learning_rate,float,0.001,0.3,log
+subsample,float,0.5,1.0,linear
+colsample_bytree,float,0.4,1.0,linear
+min_child_weight,float,0.0,10.0,linear
+gamma,float,0.0,10.0,linear
+reg_lambda,float,0.001,10.0,log
+reg_alpha,float,0.001,10.0,log
