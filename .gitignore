@@ -1,0 +1,16 @@
+﻿# Outputs
+outputs/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Optuna DBs
+*.db
+
+# Local environment
+.venv/
+.env
